@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url(/images/loginmid.jpg);
+    background-repeat: no-repeat;
+    background-size:cover
+	
+}
+
+
+
+
+.order-history-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .order-history-header {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .order-history-header h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  
+  .order-history-list {
+    padding: 20px;
+  }
+  
+  
+  .order-history-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-history-item-header {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .order-history-item-header h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .order-history-item-body {
+    padding: 10px;
+  }
+  
+  .order-history-item-body p {
+    margin-bottom: 10px;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .order-history-container {
+      margin: 20px auto;
+      padding: 10px;
+    }
+    .order-history-item {
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+  }

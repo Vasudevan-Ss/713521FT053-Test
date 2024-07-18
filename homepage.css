@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/images/loginmid.jpg);
+    background-repeat: no-repeat;
+    background-size:cover
+	
+}
+
+.container1 {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #eb7a098e;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-center {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.btn-submit {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #3e8e41;
+}
+.details{
+    display:flex;
+    justify-content: center;
+    font-weight: 1000;
+}
+.navbar{
+    background-color:rgba(255, 38, 0, 0.669);
+    display: flex;
+    
+}
+

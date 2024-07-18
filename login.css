@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/images/loginmid.jpg);
+    background-repeat: no-repeat;
+    background-size:cover
+	
+}
+
+.container1 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-box {
+	width: 30%;
+	background-color: rgba(221, 165, 12, 0.643);
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgb(182, 106, 0);
+}
+
+.login-box h2 {
+	margin-top: 0;
+}
+
+form {
+	display: flex;
+	flex-direction:column;
+    padding-right: 20px;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+
+.forgot{
+    margin: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-self: auto;
+    
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.text{
+    font-size: xxx-large;
+    font-weight:1000;
+    color: #213981f7;
+}
